@@ -1,0 +1,12 @@
+
+# MATLAB / Simulink
+*.asv
+*.slxc
+slprj/
+*.autosave
+*.mexw64
+
+# Misc
+__pycache__/
+.ipynb_checkpoints/
+.vscode/

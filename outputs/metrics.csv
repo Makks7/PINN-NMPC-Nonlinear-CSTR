@@ -1,0 +1,20 @@
+section,split,quantity,R2,RMSE,MAE,extra
+prediction,train,dCA_dt,0.987915,0.52958,0.222536,n=31920
+prediction,train,dT_dt,0.987677,24.472,8.50746,n=31920
+prediction,val,dCA_dt,0.986945,0.549749,0.224343,n=6840
+prediction,val,dT_dt,0.986830,25.1095,8.62633,n=6840
+prediction,test,dCA_dt,0.989464,0.475616,0.211517,n=6840
+prediction,test,dT_dt,0.989228,21.511,8.02773,n=6840
+fg_recovery,region,f1,0.590419,69.4562,,
+fg_recovery,region,f2,0.549720,3434.24,,
+fg_recovery,region,g11,n/a (const),0.289683,,err=5.79%
+fg_recovery,region,g22,n/a (const),0.000148965,,err=3.44%
+lyapunov,region,Vdot<0,,,,99.99% of 12656 (1 positive)
+closed_loop,IC1,"x0=(-1.00,+60.0)",,,,"V_final=11.39, converged=YES"
+closed_loop,IC2,"x0=(+1.00,-60.0)",,,,"V_final=11.97, converged=YES"
+closed_loop,IC3,"x0=(-1.40,+30.0)",,,,"V_final=11.10, converged=YES"
+closed_loop,IC4,"x0=(+1.40,-30.0)",,,,"V_final=13.23, converged=YES"
+open_loop,one_step,CA,0.999997,0.000469994,,
+open_loop,one_step,T,1.000000,0.0134375,,
+open_loop,free_running,CA,0.999088,0.00889507,,
+open_loop,free_running,T,0.999135,0.646933,,
